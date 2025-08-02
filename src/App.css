@@ -1,1 +1,32 @@
-@import "tailwindcss";
+#root {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../Images/backgroundImg.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* Prevents tiling if image is smaller than element */
+    background-position: center;
+}
+
+
+
+#FileUpload {
+    height:50px;
+    width: 360px;
+    border: 2px solid white;
+    border-radius: 9px;
+
+}
+
+
+::file-selector-button {
+  border: 2px solid black;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: gray;
+  margin-top: 5px;
+  margin-left: 10px;
+}
