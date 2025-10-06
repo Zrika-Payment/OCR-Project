@@ -1,0 +1,23 @@
+Requirement
+
+Build and Application which uses OCR for verfication.
+
+with the help of OCR  we add get details POI and POA
+
+We are getting details related to 
+
+
+Design
+
+1 backGround image
+2 image/file uploading tab.
+3 use ocr API get details from image.
+
+
+
+
+
+
+
+
+
